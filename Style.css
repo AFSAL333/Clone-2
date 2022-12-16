@@ -144,7 +144,7 @@ header a:hover {
     justify-content: center;
     align-items: flex-end;
     background-color: black;
-    background-image: url(/Pic/Pic-Left.jpg);
+    background-image: url(Pic-Left.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -172,7 +172,7 @@ header a:hover {
     width: 50%;
     height: 40vh;
     background-color: black;
-    background-image: url(/Pic/Pic-Right1a.jpg);
+    background-image: url(Pic-Right1a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -189,7 +189,7 @@ header a:hover {
 .pic-right2{
     width: 100vh;
     height: 40vh;
-    background-image: url(/Pic/Pic-Right2.jpg);
+    background-image: url(Pic-Right2.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,7 +263,7 @@ header a:hover {
 
 .grid-up1{
     width: 100%;
-    background-image: url(/Pic/1-emit-carbon-mapper-1041.jpg);
+    background-image: url(1-emit-carbon-mapper-1041.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -272,7 +272,7 @@ header a:hover {
 
 .grid-up2{
     width: 100%;
-    background-image: url(/Pic/mariner_2_flyby_9_kennedy_receives_mariner_2_model.png);
+    background-image: url(mariner_2_flyby_9_kennedy_receives_mariner_2_model.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -281,7 +281,7 @@ header a:hover {
 
 .grid-up3{
     width: 100%;
-    background-image: url(/Pic/btil.jpg);
+    background-image: url(btil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -290,7 +290,7 @@ header a:hover {
 
 .grid-down1{
     width: 100%;
-    background-image: url(/Pic/52562212346_054a94d321_o.jpg);
+    background-image: url(52562212346_054a94d321_o.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -299,7 +299,7 @@ header a:hover {
 
 .grid-down2{
     width: 100%;
-    background-image: url(/Pic/pia25698-1041-1.jpg);
+    background-image: url(pia25698-1041-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -308,7 +308,7 @@ header a:hover {
 
 .grid-down3{
     width: 100%;
-    background-image: url(/Pic/accessibility_rev2.jpeg);
+    background-image: url(accessibility_rev2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -317,7 +317,7 @@ header a:hover {
 
 .grid-down4{
     width: 100%;
-    background-image: url(/Pic/geminids_main_large.jpg);
+    background-image: url(geminids_main_large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
