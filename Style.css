@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-;
+}
+
+/* HEADER SECTION */
+
+header{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 21px;
+    font-family: Tahoma;
+    color: white;
+
+}
+
+header a:hover {
+    color: blue;
+}
+
+.ms{
+    margin-left: 170px;
+}
+
+.search-box{
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+    margin-left: 30px;
+    background-color: grey;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.search-box input{
+    width: 120px;
+    height: 40px;
+    float: left;
+    border: 0ch;
+    background-color: gray;
+}
+
+.search-box a{
+    display: flex;
+    padding-left: 1px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+
+::placeholder{
+    color: lightgray;
+    padding-left: 10px;
+}
+
+.header-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottom-inner{
+    width: 140vh;
+    height: 40px;
+    background-color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.header-bottom-inner a{
+    text-decoration: none;
+    margin-right: 24px;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: white;
+}
+
+.header-bottom-inner a:hover{
+    color: black;
+}
+
+/* HEADER END */
+
+/* BANNER SECTION */
+
+.banner-container{
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic-container{
+    width: 200vh;
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-left{
+    margin: 15px;
+    margin-left: 30px;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    background-image: url(/Pic/Pic-Left.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic-right{
+    margin: 15px;
+    margin-right: 40px;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.pic-right1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.pic-right1a{
+    width: 50%;
+    height: 40vh;
+    background-color: black;
+    background-image: url(/Pic/Pic-Right1a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pic-right1b{
+    width: 50%;
+    height: 40vh;
+    background-color: #39719e;
+    padding-left: 30px;
+}
+
+.pic-right2{
+    width: 100vh;
+    height: 40vh;
+    background-image: url(/Pic/Pic-Right2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pic-right1b a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-family: Tahoma;
+    color: white;
+}
+
+.pic-right1b h2{
+    color: white;
+    margin: 3px;
+}
+
+.pic-caption{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.pic-caption a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.grid-container{
+    width: 200vh;
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-grid{
+    width: 200vh;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}   
+
+.grid-up{
+    width: 200vh;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50vh 100vh 50vh;
+}
+
+.grid-down{
+    width: 200vh;
+    height: 45vh;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 50vh 50vh 50vh 50vh;
+}
+
+.grid-up1{
+    width: 100%;
+    background-image: url(/Pic/1-emit-carbon-mapper-1041.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-up2{
+    width: 100%;
+    background-image: url(/Pic/mariner_2_flyby_9_kennedy_receives_mariner_2_model.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-up3{
+    width: 100%;
+    background-image: url(/Pic/btil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-down1{
+    width: 100%;
+    background-image: url(/Pic/52562212346_054a94d321_o.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-down2{
+    width: 100%;
+    background-image: url(/Pic/pia25698-1041-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-down3{
+    width: 100%;
+    background-image: url(/Pic/accessibility_rev2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-down4{
+    width: 100%;
+    background-image: url(/Pic/geminids_main_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* BANNER END */
+
+/* FOOTER SECTION */
+
+.footer-container{
+    width: 200vh;
+    height: 35vh;
+    background-color: red;
+}
+
+.footer-badge{
+    margin-top: 100vh;
+    width: 200vh;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-badge a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family: Tahoma;
+    color: white;
+}
+
+.footer-badge a:hover{
+    color: #888;
+}
+
+.nasa-badge{
+    width: 200vh;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nasa-badge span{
+    display: flex;
+    padding-left: 1px;
+    margin-top: 18px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 80px;
+    font-family: Tahoma;
+    color: white;
+}
+
+.footer-end{
+    width: 200vh;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-end a{
+    display: flex;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: 20px;
+    font-family: Tahoma;
+    color: blue;
+}
+
+.footer-end a:hover{
+    color: white;
+}
+
+/* FOOTER END */
